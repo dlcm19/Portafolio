@@ -71,6 +71,9 @@ color: var(--backgraund-foto);
 
   
 }
+strong{
+color: var(--backgraund-orangen);
+}
 .backgroundSeccion1{
   background-color: var(--backgraund-seccion2);
   width: 45%;
@@ -85,13 +88,13 @@ h1{
 font-size: 10rem;
 z-index: 100;
 }
- img{
-   width: 90%;
-   height: 90%;
+ .mifoto{
+   width: 30%;
+   height: 70%;
   position: fixed;
   border-radius: 1px; 
   position: absolute;
-  right: 70px;
+  right: 90px;
   z-index: 100;
   
 }
@@ -139,7 +142,8 @@ align-content: stretch;
 }
 .containerImagenesSeccion2{
   display: flex;
-margin-right: 100px;
+  margin-right: 100px;
+  gap: 18em;
 }
 .descripcionImaseccion2{
   width: 80px;
@@ -149,7 +153,7 @@ margin-right: 100px;
 }
 .titleSeccion2{
   font-size: 4rem;
- margin-top: 50px;
+
 }
 .parrafoSeccion2{
   width: 1000px;
@@ -157,14 +161,13 @@ margin-right: 100px;
 }
 /*****************************Sección 3**********************************/
 .seccion3{
-  min-height: 120vh;
+  min-height: 130vh;
   background-color: var(--backgraund-blue-oscuro);
 }
 .parrafoExperienciaSeccion3{
-  margin-top: 50px;
   font-size: 4rem;
   text-align: center;
-  margin: 50px;
+  margin: 60px;
 }
 .subContainerseccion3{
   display: flex;
@@ -175,8 +178,6 @@ margin-right: 100px;
   display: flex;
   gap:5em;
   font-size: 2em;
- 
-  
 }
 .parrafoAmazon{
   font-size: 0.6em;
@@ -188,7 +189,6 @@ margin-right: 100px;
   display: flex;
   gap:5em;
   font-size: 2em;
- 
 }
 .parrafoUnoAñoSeccion3{
   margin-top: 1em;
@@ -221,7 +221,7 @@ margin-right: 100px;
 
 /* **************************************sección 4*****************************************/
 .seccion4{
-  min-height: 130vh;
+  min-height: 110vh;
   background-color: var(--backgraund-blue-oscuro)
 
 }
@@ -275,7 +275,9 @@ gap: 2em;
 
 /*******************************seccion 5***********/
 .seccion5{
-  min-height: 250vh;
+  min-height: 270vh;
+  background-color: var(--backgraund-blue-oscuro);
+  
 }
 .titleSeccion5{
   font-size: 3.5em;
@@ -287,24 +289,54 @@ gap: 2em;
 .subContainerSeccion5{
   display: flex;
   flex-direction: column;
-  gap: 5em;
+  gap:5em;
 }
-img{
-width: 450px;
-height: 450px;
+
+.backgroundContainerImgUnoSeccion5{
+ background-color: var(--backgraund-foto);
+ width: 41%;
+  height: 60vh;
+  position: fixed;
+  top: 100;
+  position: absolute;
+  margin-left: 170px;
+  z-index: 100;
+
+
 }
 .imgUnoSeccion5{
-  background-color: var(--backgraund-foto);
+  z-index: 150;
+  margin-top: 25px;
+  margin-left: 190px 
 }
-.imgDosSeccion5{
-  width: 450px;
-  height: 450px;
+ .containerImgDosSeccion5{
+  background-color: var(--backgraund-seccion2);
+  width: 90vh;
+  height: 57vh;
+  margin-left: 700px;
+  margin-bottom: 400x;
   
+} 
+.imgTrainingatHomeApp{
+  margin-top: 25px;
+  margin-left: 25px;
+
 }
-  .imgTresSeccion5{
-    width: 450px;
-    height: 450px;
+  .containerImgTresSeccion5{
+  background-color: var(--backgraund-foto);
+  margin-left: 150px;
+  width: 88vh;
+  height: 60vh;
     
+}
+.imgPersonalWrite{
+
+  margin-left: 15px;
+  margin-top: 1.5em;
+}
+.parrafoPiePaginaSeccion5{
+  font-size: 2em;
+  margin-top: 1.3em;
 }
  /************************sección 6*****************************/
 .seccion6{
@@ -339,6 +371,7 @@ height: 450px;
 .imgEmail{
   align-self: flex-end;
 }
+/*********************************sección 7********************/
 .seccion7{
   min-height: 30vh;
   background-color: var(--backgraund-blue-oscuro)
